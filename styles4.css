@@ -1,0 +1,119 @@
+/*Styles for Favourites Page*/
+
+/*This styles the backgrounds for the hobbies/interests page*/
+body {
+	background-image: url("images/background5.jpg");
+}
+
+/*This styles the a tags/links*/
+a {
+	color: black;
+	font-size: 20px;
+}
+
+/*The following code is for the styling of the link classes*/
+.link1, .link2 {
+	text-align: left;
+}
+
+.link1 {
+	padding: 10px;
+}
+
+.link2 {
+	padding: 30px;
+}
+
+/*This is for styling the table which has the information about my hobbies/interests*/
+table {
+	width: 100%;
+	padding-left: 230px;
+}
+
+/*This styles the headers with similar features*/
+h1,h3,h4 {
+	font-family: Calibri, Arial, sans-serif;
+	color: black;
+}
+
+h1 {
+	text-align: center;
+	font-style: italic;
+	font-size: 60px;
+}
+
+h3 {
+	text-align: left;
+	font-size: 30px;
+	padding-left: 10px;
+}
+
+/*This styles the ordered list with the information about my favourite shows and movies*/
+ol {
+	font-size: 23px;
+	display: inline-block;
+}
+
+/*Styles the text within the ol tag so that there is space between the text*/
+.list>li {
+	padding: 10px;
+}
+
+/* These picture classes style each picture in a different way on the page*/
+.pic1, .pic2, .pic3, .pic4 {
+	border-style: dashed;
+}
+
+.pic1 {
+	width: 250px;
+	height: 350px;
+	border-color: #8E34ED;
+	margin-top: 70px;
+}
+
+.pic2 {
+	width: 250px;
+	height: 350px;
+	border-color: #FA6EB4;
+	margin-top: 70px;
+}
+
+.pic3 {
+	width: 250px;
+	height: 350px;
+	border-color: #007CAD;
+	margin-top: 70px;
+}
+
+.pic4 {
+	width: 250px;
+	height: 350px;
+	border-color: #FFFA94;
+	margin-top: 70px;
+}
+
+/*This styles the p tag that holds the captions for each of my pictures on the page*/
+p {
+	font-family: calibri, arial, sans-serif;
+	font-size: 17px;
+	text-align: left;
+}
+
+/*This styles any p tags (captions) within the div to appear in certain positions on the page*/
+div>p {
+	margin-top: 280px;
+	margin-bottom: 280px;
+	margin-right: 100px;
+}
+
+/*This styles the HTML validator icon*/
+.htmlpic {
+	width: 50px;
+	height: 50px;
+}
+
+/*This styles the CSS validator icon*/
+.csspic {
+	width: 50px;
+	height: 50px;
+}

@@ -1,0 +1,58 @@
+/*Styles for Homepage & References Page*/
+
+/*This styles the backgrounds for the homepage and references page*/
+.bkg1 {
+	background-image:url("images/geo_background6.jpg");
+}
+
+.bkg2 {
+	background-image:url("images/background7.jpg");
+}
+
+/*This styles the headers with a sans-serif font, color black, italic and in the center of the page*/
+h1,h3 {
+	font-family:Calibri, Arial, sans-serif; 
+	color:black;
+	text-align:center;
+	font-style:italic;
+}
+
+h1 {
+	font-size:60px;
+}
+
+h3 {
+	font-size:45px;
+}
+
+a {
+	color: black;
+	font-size:20px;
+}
+
+/*This styles the different link classes in different areas of the page*/
+.link1, .link2, .link3, .link4, .link5 {
+	text-align:left;
+	padding: 100px;
+}
+
+.link5 {
+	padding: 0px;
+}
+
+/*This means that all links (a tags) within the div are being styled with a font size of 15px*/
+div>a {
+	font-size: 15px;
+}
+
+/*This styles the HTML validator icon*/
+.htmlpic {
+	width: 50px;
+	height: 50px;
+}
+
+/*This styles the CSS validator icon*/
+.csspic {
+	width: 50px;
+	height: 50px;
+}

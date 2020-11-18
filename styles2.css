@@ -1,0 +1,98 @@
+/*Styles for About Me Page*/
+
+/*This styles the backgrounds for the about me page*/
+body {
+	background-image: url("images/background4.jpg");
+}
+
+/*This styles the a tags/links*/
+a {
+	color: black;
+	font-size: 20px;
+}
+
+/*The following code is for the styling of the link classes*/
+.link1, .link2 {
+	text-align: left;
+}
+
+.link1 {
+	padding: 10px;
+}
+
+.link2 {
+	padding: 30px;
+}
+
+/*This styles the headers with similar features*/
+h1,h3,h4 {
+	font-family: Calibri, Arial, sans-serif;
+	color: black;
+}
+
+h1 {
+	text-align: center;
+	font-style: italic;
+	font-size: 60px;
+}
+
+h3,h4 {
+	text-align: center;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 27px;
+}
+
+/*Styles the unordered list with the information*/
+ul {
+	font-size: 25px;
+}
+
+/*Styles the text within the ul tag so that there is space between the text*/
+.list>li {
+	padding: 10px;
+}
+
+/*Creates general styles for all the images*/
+img {
+	width: 210px;
+	height: 210px;
+	border-style: solid;
+	border-width: 2px;
+	margin-left: 25px;
+}
+
+/*These styles are more specific to each picture*/
+.pic1, .pic5 {
+	border-color: white;
+}
+
+.pic2, .pic4 {
+	border-color: #FFD561;
+}
+
+.pic3 {
+	border-color: #6186FF
+}
+
+/*This style removes the border around the HTML & CSS icons*/
+.htmlpic, .csspic {
+	border-style: none;
+}
+
+/*This styles the HTML validator icon*/
+.htmlpic {
+	width: 50px;
+	height: 50px;
+}
+
+/*This styles the CSS validator icon*/
+.csspic {
+	width: 50px;
+	height: 50px;
+}
